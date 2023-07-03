@@ -1,0 +1,25 @@
+{
+    "nome": "string"
+    ,"dataCriacao": "string"
+    ,"professorCoordenador": {
+        "nome": "string"
+        ,"cpf": 123
+        ,"sala": {
+            "unidadeCampus": 123
+            ,"numero": 123
+        }
+    }
+    ,"projetos": [
+        {
+            "nome": "string"
+            ,"dataCriacao": "string"
+            ,"alunos": [
+                {
+                    "nome": "string"
+                    ,"cpf": 123
+                    ,"matrícula": 123
+                }
+            ]
+        }
+    ]
+}
