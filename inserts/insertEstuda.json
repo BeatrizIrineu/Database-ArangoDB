@@ -1,0 +1,47 @@
+[
+    {
+        "_key": "Maria-Medicina",
+        "_from": "aluno/Maria",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Joao-Medicina",
+        "_from": "aluno/Joao",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Felipe-Matematica",
+        "_from": "aluno/Felipe",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Mateus-Engenharia",
+        "_from": "aluno/Mateus",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Marina-Letras",
+        "_from": "aluno/Marina",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Ana-Musica",
+        "_from": "aluno/Ana",
+        "_to": "curso/Musica"
+    },
+    {
+        "_key": "Roberto-Musica",
+        "_from": "aluno/Roberto",
+        "_to": "curso/Musica"
+    },
+    {
+        "_key": "Maycon-Letras",
+        "_from": "aluno/Maycon",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Victor-Engenharia",
+        "_from": "aluno/Victor",
+        "_to": "curso/Engenharia"
+    }
+]

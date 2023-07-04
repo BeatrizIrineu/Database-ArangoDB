@@ -1,0 +1,27 @@
+[
+    {
+        "_key": "Arnaldo-Forgers",
+        "_from": "professor/Arnaldo",
+        "_to": "grupo_extensao/Forgers"
+    },
+    {
+        "_key": "Gomes-Atletica",
+        "_from": "professor/Gomes",
+        "_to": "grupo_extensao/Atletica"
+    },
+    {
+        "_key": "Quiles-Mao3D",
+        "_from": "professor/Quiles",
+        "_to": "grupo_extensao/Mao3D"
+    },
+    {
+        "_key": "Amanda-Tor",
+        "_from": "professor/Amanda",
+        "_to": "grupo_extensao/Tor"
+    },
+    {
+        "_key": "Musa-Pandas",
+        "_from": "professor/Musa",
+        "_to": "grupo_extensao/Pandas"
+    }
+]

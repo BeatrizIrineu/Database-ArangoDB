@@ -1,0 +1,82 @@
+[
+    {
+        "_key": "UNIFESP-Sao_Jose_dos_Campos",
+        "_to": "campus/Sao_Jose_dos_Campos",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Diadema",
+        "_to": "campus/Diadema",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Baixada_Santista",
+        "_to": "campus/Baixada_Santista",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Guarulhos",
+        "_to": "campus/Guarulhos",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Osasco",
+        "_to": "campus/Osasco",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Zona_Leste",
+        "_to": "campus/Zona_Leste",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UNIFESP-Sao_Paulo",
+        "_to": "campus/Sao_Paulo",
+        "_from": "universidades/UNIFESP"
+    },
+    {
+        "_key": "UFRJ-Rio_de_Janeiro",
+        "_to": "campus/Rio_de_Janeiro",
+        "_from": "universidades/UFRJ"
+    },
+    {
+        "_key": "UFRJ-Duque_de_Caxias",
+        "_to": "campus/Duque_de_Caxias",
+        "_from": "universidades/UFRJ"
+    },
+    {
+        "_key": "UFRJ-Macae",
+        "_to": "campus/Macae",
+        "_from": "universidades/UFRJ"
+    },
+    {
+        "_key": "UFABC-Sao_Bernardo_do_Campo",
+        "_to": "campus/Sao_Bernardo_do_Campo",
+        "_from": "universidades/UFABC"
+    },
+    {
+        "_key": "UFABC-Santo_Andre",
+        "_to": "campus/Santo_Andre",
+        "_from": "universidades/UFABC"
+    },
+    {
+        "_key": "UFSCAR-Sao_Carlos",
+        "_to": "campus/Sao_Carlos",
+        "_from": "universidades/UFSCAR"
+    },
+    {
+        "_key": "UFSCAR-Araras",
+        "_to": "campus/Araras",
+        "_from": "universidades/UFSCAR"
+    },
+    {
+        "_key": "UFSCAR-Sorocaba",
+        "_to": "campus/Sorocaba",
+        "_from": "universidades/UFSCAR"
+    },
+    {
+        "_key": "UFSCAR-Lagoa_do_Sino",
+        "_to": "campus/Lagoa_do_Sino",
+        "_from": "universidades/UFSCAR"
+    }
+]

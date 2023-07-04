@@ -1,0 +1,95 @@
+[
+    {
+        "_key": "Baixada_Santista",
+        "name": "UNIFESP",
+        "telefone": "+55 (13) 3512-2700"
+    },
+    {
+        "_key": "Diadema",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4137",
+        "endereco": "Rua Prof. Artur Riedel, 275"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4100"
+    },
+    {
+        "_key": "Guarulhos",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4213",
+        "endereco": "Estrada do Caminho Velho, 333",
+        "bairro": "Jd. Nova Cidade"
+    },
+    {
+        "_key": "Osasco",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4296",
+        "bairro": "Jd. das Flores"
+    },
+    {
+        "_key": "Sao_Paulo",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4343",
+        "endereco": "Rua Botucatu, 740",
+        "bairro": "Vila Clementino"
+    },
+    {
+        "_key": "Zona_Leste",
+        "name": "UNIFESP",
+        "telefone": "+55 (11) 3385-4100",
+        "endereco": "Avenida Jacu-Pêssego, 2630"
+    },
+    {
+        "_key": "Rio_de_Janeiro",
+        "name": "UFRJ",
+        "telefone": "+55 (21) 3733-1985",
+        "endereco": "R. Antônio Barros de Castro, 119"
+    },
+    {
+        "_key": "Duque_de_Caxias",
+        "name": "UFRJ",
+        "bairro": " Santa Cruz da Serra"
+    },
+    {
+        "_key": "Macae",
+        "name": "UFRJ",
+        "telefone": "+55 (22) 2141-4006",
+        "endereco": "Av. Aluizio da Silva Gomes, 50"
+    },
+    {
+        "_key": "Santo_Andre",
+        "name": "UFABC",
+        "telefone": "+55 (11) 3356-7000",
+        "endereco": "Av. dos Estados, 5001",
+        "bairro": "Bangu"
+    },
+    {
+        "_key": "Sao_Bernardo_do_Campo",
+        "name": "UFABC",
+        "telefone": "+55 (11) 2320-6120"
+    },
+    {
+        "_key": "Sao_Carlos",
+        "name": "UFSCAR",
+        "telefone": "+55 (16) 3351-8111",
+        "bairro": "Monjolinho"
+    },
+    {
+        "_key": "Araras",
+        "name": "UFSCAR",
+        "telefone": "+55 (19) 3543-2600"
+    },
+    {
+        "_key": "Sorocaba",
+        "name": "UFSCAR",
+        "bairro": "Itinga"
+    },
+    {
+        "_key": "Lagoa_do_Sino",
+        "name": "UFSCAR",
+        "telefone": "+55 (15) 3256-9000",
+        "bairro": "Aracaçu"
+    }
+]

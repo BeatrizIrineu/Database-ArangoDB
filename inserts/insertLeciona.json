@@ -1,0 +1,27 @@
+[
+    {
+        "_key": "Arnaldo-Medicina",
+        "_from": "professor/Arnaldo",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Gomes-Engenharia",
+        "_from": "professor/Gomes",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Quiles-Letras",
+        "_from": "professor/Quiles",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Amanda-Matematica",
+        "_from": "professor/Amanda",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Musa-Musica",
+        "_from": "professor/Musa",
+        "_to": "curso/Musica"
+    }
+]

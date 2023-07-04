@@ -1,0 +1,47 @@
+[
+    {
+        "_key": "Maria-Forgers",
+        "_from": "aluno/Maria",
+        "_to": "grupo_extensao/Forgers"
+    },
+    {
+        "_key": "Joao-Forgers",
+        "_from": "aluno/Joao",
+        "_to": "grupo_extensao/Forgers"
+    },
+    {
+        "_key": "Felipe-Tor",
+        "_from": "aluno/Felipe",
+        "_to": "grupo_extensao/Tor"
+    },
+    {
+        "_key": "Mateus-Atletica",
+        "_from": "aluno/Mateus",
+        "_to": "grupo_extensao/Atletica"
+    },
+    {
+        "_key": "Marina-Mao3D",
+        "_from": "aluno/Marina",
+        "_to": "grupo_extensao/Mao3D"
+    },
+    {
+        "_key": "Ana-Pandas",
+        "_from": "aluno/Ana",
+        "_to": "grupo_extensao/Pandas"
+    },
+    {
+        "_key": "Roberto-Pandas",
+        "_from": "aluno/Roberto",
+        "_to": "grupo_extensao/Pandas"
+    },
+    {
+        "_key": "Maycon-Mao3D",
+        "_from": "aluno/Maycon",
+        "_to": "grupo_extensao/Mao3D"
+    },
+    {
+        "_key": "Victor-Atletica",
+        "_from": "aluno/Victor",
+        "_to": "grupo_extensao/Atletica"
+    }
+]

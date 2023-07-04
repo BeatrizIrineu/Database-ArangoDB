@@ -1,0 +1,327 @@
+[
+    {
+        "_key": "Sao_Paulo-Biomedicina",
+        "_from": "campus/Sao_Paulo",
+        "_to": "curso/Biomedicina"
+    },
+    {
+        "_key": "Sao_Paulo-Farmacia",
+        "_from": "campus/Sao_Paulo",
+        "_to": "curso/Farmacia"
+    },
+    {
+        "_key": "Sao_Paulo-Medicina",
+        "_from": "campus/Sao_Paulo",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Diadema-Ciencias",
+        "_from": "campus/Diadema",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Diadema-Engenharia",
+        "_from": "campus/Diadema",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Diadema-Quimica",
+        "_from": "campus/Diadema",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Diadema-Farmacia",
+        "_from": "campus/Diadema",
+        "_to": "curso/Farmacia"
+    },
+    {
+        "_key": "Baixada_Santista-Educacao_Fisica",
+        "_from": "campus/Baixada_Santista",
+        "_to": "curso/Educacao_Fisica"
+    },
+    {
+        "_key": "Baixada_Santista-Engenharia",
+        "_from": "campus/Baixada_Santista",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Baixada_Santista-Ciencia_e_Tecnologia",
+        "_from": "campus/Baixada_Santista",
+        "_to": "curso/Ciencia_e_Tecnologia"
+    },
+    {
+        "_key": "Baixada_Santista-Nutricao",
+        "_from": "campus/Baixada_Santista",
+        "_to": "curso/Nutricao"
+    },
+    {
+        "_key": "Osasco-Administracao",
+        "_from": "campus/Osasco",
+        "_to": "curso/Administracao"
+    },
+    {
+        "_key": "Osasco-Ciencias",
+        "_from": "campus/Osasco",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Osasco-Direito",
+        "_from": "campus/Osasco",
+        "_to": "curso/Direito"
+    },
+    {
+        "_key": "Osasco-Relacoes_Internacionais",
+        "_from": "campus/Osasco",
+        "_to": "curso/Relacoes_Internacionais"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos-Computacao",
+        "_from": "campus/Sao_Jose_dos_Campos",
+        "_to": "curso/Computacao"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos-Engenharia",
+        "_from": "campus/Sao_Jose_dos_Campos",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos-Ciencia_e_Tecnologia",
+        "_from": "campus/Sao_Jose_dos_Campos",
+        "_to": "curso/Ciencia_e_Tecnologia"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos-Matematica",
+        "_from": "campus/Sao_Jose_dos_Campos",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Sao_Jose_dos_Campos-Biotecnologia",
+        "_from": "campus/Sao_Jose_dos_Campos",
+        "_to": "curso/Biotecnologia"
+    },
+    {
+        "_key": "Guarulhos-Ciencias",
+        "_from": "campus/Guarulhos",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Guarulhos-Letras",
+        "_from": "campus/Guarulhos",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Guarulhos-Filosofia",
+        "_from": "campus/Guarulhos",
+        "_to": "curso/Filosofia"
+    },
+    {
+        "_key": "Guarulhos-Historia",
+        "_from": "campus/Guarulhos",
+        "_to": "curso/Historia"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Letras",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Computacao",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Computacao"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Ciencias",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Direito",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Direito"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Educacao_Fisica",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Educacao_Fisica"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Engenharia",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Historia",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Historia"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Matematica",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Musica",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Musica"
+    },
+    {
+        "_key": "Rio_de_Janeiro-Relacoes_Internacionais",
+        "_from": "campus/Rio_de_Janeiro",
+        "_to": "curso/Relacoes_Internacionais"
+    },
+    {
+        "_key": "Duque_de_Caxias-Biotecnologia",
+        "_from": "campus/Duque_de_Caxias",
+        "_to": "curso/Biotecnologia"
+    },
+    {
+        "_key": "Macae-Engenharia",
+        "_from": "campus/Macae",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Macae-Farmacia",
+        "_from": "campus/Macae",
+        "_to": "curso/Farmacia"
+    },
+    {
+        "_key": "Macae-Medicina",
+        "_from": "campus/Macae",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Macae-Nutricao",
+        "_from": "campus/Macae",
+        "_to": "curso/Nutricao"
+    },
+    {
+        "_key": "Macae-Quimica",
+        "_from": "campus/Macae",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Santo_Andre-Biotecnologia",
+        "_from": "campus/Santo_Andre",
+        "_to": "curso/Biotecnologia"
+    },
+    {
+        "_key": "Santo_Andre-Computacao",
+        "_from": "campus/Santo_Andre",
+        "_to": "curso/Computacao"
+    },
+    {
+        "_key": "Santo_Andre-Matematica",
+        "_from": "campus/Santo_Andre",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Santo_Andre-Quimica",
+        "_from": "campus/Santo_Andre",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Santo_Andre-Ciencia_e_Tecnologia",
+        "_from": "campus/Santo_Andre",
+        "_to": "curso/Ciencia_e_Tecnologia"
+    },
+    {
+        "_key": "Sao_Bernardo_do_Campo-Filosofia",
+        "_from": "campus/Sao_Bernardo_do_Campo",
+        "_to": "curso/Filosofia"
+    },
+    {
+        "_key": "Sao_Bernardo_do_Campo-Relacoes_Internacionais",
+        "_from": "campus/Sao_Bernardo_do_Campo",
+        "_to": "curso/Relacoes_Internacionais"
+    },
+    {
+        "_key": "Sao_Carlos-Biotecnologia",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Biotecnologia"
+    },
+    {
+        "_key": "Sao_Carlos-Computacao",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Computacao"
+    },
+    {
+        "_key": "Sao_Carlos-Educacao_Fisica",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Educacao_Fisica"
+    },
+    {
+        "_key": "Sao_Carlos-Engenharia",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Sao_Carlos-Filosofia",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Filosofia"
+    },
+    {
+        "_key": "Sao_Carlos-Letras",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Letras"
+    },
+    {
+        "_key": "Sao_Carlos-Matematica",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Sao_Carlos-Medicina",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Sao_Carlos-Quimica",
+        "_from": "campus/Sao_Carlos",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Araras-Agroecologia",
+        "_from": "campus/Araras",
+        "_to": "curso/Agroecologia"
+    },
+    {
+        "_key": "Araras-Biotecnologia",
+        "_from": "campus/Araras",
+        "_to": "curso/Biotecnologia"
+    },
+    {
+        "_key": "Araras-Quimica",
+        "_from": "campus/Araras",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Sorocaba-Administracao",
+        "_from": "campus/Sorocaba",
+        "_to": "curso/Administracao"
+    },
+    {
+        "_key": "Sorocaba-Computacao",
+        "_from": "campus/Sorocaba",
+        "_to": "curso/Computacao"
+    },
+    {
+        "_key": "Sorocaba-Matematica",
+        "_from": "campus/Sorocaba",
+        "_to": "curso/Matematica"
+    },
+    {
+        "_key": "Lagoa_do_Sino-",
+        "_from": "campus/Lagoa_do_Sino",
+        "_to": "curso/"
+    },
+    {
+        "_key": "Lagoa_do_Sino-Administracao",
+        "_from": "campus/Lagoa_do_Sino",
+        "_to": "curso/Administracao"
+    },
+    {
+        "_key": "Lagoa_do_Sino-Engenharia",
+        "_from": "campus/Lagoa_do_Sino",
+        "_to": "curso/Engenharia"
+    }
+]

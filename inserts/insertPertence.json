@@ -1,0 +1,76 @@
+[
+    {
+        "_key": "Mao3D-Sao_Jose_dos_Campos",
+        "_from": "grupo_extensao/Mao3D",
+        "_to": "campus/Sao_Jose_dos_Campos"
+    },
+    {
+        "_key": "CEGI-Sao_Jose_dos_Campos",
+        "_from": "grupo_extensao/CEGI",
+        "_to": "campus/Sao_Jose_dos_Campos"
+    },
+    {
+        "_key": "Areia_Viva-Baixada_Santista",
+        "_from": "grupo_extensao/Areia_Viva",
+        "_to": "campus/Baixada_Santista"
+    },
+    {
+        "_key": "Mar_Arte-Baixada_Santista",
+        "_from": "grupo_extensao/Mar_Arte",
+        "_to": "campus/Baixada_Santista"
+    },
+    {
+        "_key": "Comprimidos-Diadema",
+        "_from": "grupo_extensao/Comprimidos",
+        "_to": "campus/Diadema"
+    },
+    {
+        "_key": "GEPA-Guarulhos",
+        "_from": "grupo_extensao/GEPA",
+        "_to": "campus/Guarulhos"
+    },
+    {
+        "_key": "Lapes-Guarulhos",
+        "_from": "grupo_extensao/Lapes",
+        "_to": "campus/Guarulhos"
+    },
+    {
+        "_key": "Mind7_Empreendedor-Osasco",
+        "_from": "grupo_extensao/Mind7_Empreendedor",
+        "_to": "campus/Osasco"
+    },
+    {
+        "_key": "@Vaci-amar-Sao_Paulo",
+        "_from": "grupo_extensao/@Vaci-amar",
+        "_to": "campus/Sao_Paulo"
+    },
+    {
+        "_key": "VIGIALERTA-Sao_Paulo",
+        "_from": "grupo_extensao/VIGIALERTA",
+        "_to": "campus/Sao_PAulo"
+    },
+    {
+        "_key": "Brinca_que_Melhora-Macae",
+        "_from": "grupo_extensao/Brinca_que_Melhora",
+        "_to": "campus/Macae"
+    },{
+        "_key": "Difusao-Rio_de_Janeiro",
+        "_from": "grupo_extensao/Difusao",
+        "_to": "campus/Rio_de_Janeiro"
+    },
+    {
+        "_key": "Tela_Verde-Rio_de_Janeiro",
+        "_from": "grupo_extensao/Tela_Verde",
+        "_to": "campus/Rio_de_Janeiro"
+    },
+    {
+        "_key": "Pontinha-Sao_Carlos",
+        "_from": "grupo_extensao/Pontinha",
+        "_to": "campus/Sao_Carlos"
+    },
+    {
+        "_key": "Gen4-Sao_Carlos",
+        "_from": "grupo_extensao/Gen4",
+        "_to": "campus/Sao_Carlos"
+    }
+]

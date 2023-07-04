@@ -1,4 +1,6 @@
-from arango import ArangoClient, AQLQueryKillError
+from arango import ArangoClient
+import json
+
 
 # Initialize the ArangoDB client.
 client = ArangoClient()
@@ -124,133 +126,41 @@ else:
         to_vertex_collections=["grupo_extensao"]
     )
 
+with open("inserts\insertUnis.json") as f:
+    universidades.insert_many(json.load(f))
 
-universidades.insert_many(
-    [
-        {"_key": "UNIFESP"},
-        {"_key": "UNIP"},
-        {"_key": "UNIVAP"},
-        {"_key": "USP"},
-        {"_key": "UNICAMP"},
-    ]
-)
-campus.insert_many(
-    [
-        {"_key": "SJC", "name": "UNIFESP", "telefone": "1234-1234"},
-        {"_key": "Diadema", "name": "UNIP", "telefone": "1111-1111"},
-        {"_key": "Santos", "name": "UNIVAP", "telefone": "4321-1234"},
-        {"_key": "Campinas", "name": "USP", "telefone": "1234-4321"},
-        {"_key": "SP", "name": "UNICAMP", "telefone": "4321-4321"},
-    ]
-)
-curso.insert_many(
-    [
-        {"_key": "Medicina"},
-        {"_key": "Engenharia"},
-        {"_key": "Letras"},
-        {"_key": "Matematica"},
-        {"_key": "Musica"},
-    ]
-)
-aluno.insert_many(
-    [
-        {"_key": "Maria", "cpf": "123.456.782-87", "ra": "12-3456"},
-        {"_key": "Joao", "cpf": "823.456.234-87", "ra": "11-2456"},
-        {"_key": "Felipe", "cpf": "765.456.782-87", "ra": "15-3256"},
-        {"_key": "Mateus", "cpf": "153.466.712-87", "ra": "10-3156"},
-        {"_key": "Marina", "cpf": "283.385.782-87", "ra": "11-2356"},
-        {"_key": "Ana", "cpf": "103.456.782-17", "ra": "22-3469"},
-        {"_key": "Roberto", "cpf": "707.456.782-87", "ra": "10-1236"},
-        {"_key": "Maycon", "cpf": "612.456.782-87", "ra": "11-2436"},
-        {"_key": "Victor", "cpf": "552.456.782-87", "ra": "18-7646"}
-    ]
-)
+with open("inserts\insertCampi.json") as f:
+    campus.insert_many(json.load(f)) 
 
-professor.insert_many(
-    [
-        {"_key": "Arnaldo", "cpf": "123.456.789-00"},
-        {"_key": "Gomes", "cpf": "333.333.729-10"},
-        {"_key": "Quiles", "cpf": "122.345.789-00"},
-        {"_key": "Amanda", "cpf": "111.222.789-00"},
-        {"_key": "Musa", "cpf": "113.436.939-00"},
-    ]
-)
+with open("inserts\insertCursos.json") as f:
+    curso.insert_many(json.load(f))
 
+#with open("inserts\insertAlunos.json") as f:
+#    aluno.insert_many(json.load(f))
 
-grupo_extensao.insert_many(
-    [
-        {"_key": "Forgers"},
-        {"_key": "Atletica"},
-        {"_key": "Mao3D"},
-        {"_key": "Tor"},
-        {"_key": "Pandas"},
-    ]
-)
+#with open("inserts\insertProfessores.json") as f:
+#    aluno.insert_many(json.load(f))
 
-oferece.insert_many(
-    [{"_key": "SJC-Medicina", "_from": "campus/SJC", "_to": "curso/Medicina"},
-     {"_key": "Diadema-Engenharia", "_from": "campus/Diadema", "_to": "curso/Engenharia"},
-     {"_key": "Santos-Letras", "_from": "campus/Santos", "_to": "curso/Letras"},
-     {"_key": "Campinas-Matematica", "_from": "campus/Campinas", "_to": "curso/Matematica"},
-     {"_key": "SP-Musica", "_from": "campus/SP", "_to": "curso/Musica"}]
-)
+with open("inserts\insertGEs.json") as f:
+    grupo_extensao.insert_many(json.load(f))
 
-localizado.insert_many(
-    [{"_key": "UNIFESP-SJC", "_from": "campus/SJC", "_to": "universidades/UNIFESP"},
-     {"_key": "UNIP-Diadema", "_from": "campus/Diadema", "_to": "universidades/UNIP"},
-     {"_key": "UNIVAP-Santos", "_from": "campus/Santos", "_to": "universidades/UNIVAP"},
-     {"_key": "USP-Campinas", "_from": "campus/Campinas", "_to": "universidades/USP"},
-     {"_key": "UNICAMP-SP", "_from": "campus/SP", "_to": "universidades/UNICAMP"}]
-)
+with open("inserts\insertOferece.json") as f:
+    oferece.insert_many(json.load(f))
 
-estuda.insert_many(
-    [{"_key": "Maria-Medicina", "_from": "aluno/Maria", "_to": "curso/Medicina"},
-     {"_key": "Joao-Medicina", "_from": "aluno/Joao", "_to": "curso/Medicina"},
-     {"_key": "Felipe-Matematica", "_from": "aluno/Felipe", "_to": "curso/Matematica"},
-     {"_key": "Mateus-Engenharia", "_from": "aluno/Mateus", "_to": "curso/Engenharia"},
-     {"_key": "Marina-Letras", "_from": "aluno/Marina", "_to": "curso/Letras"},
-     {"_key": "Ana-Musica", "_from": "aluno/Ana", "_to": "curso/Musica"},
-     {"_key": "Roberto-Musica", "_from": "aluno/Roberto", "_to": "curso/Musica"},
-     {"_key": "Maycon-Letras", "_from": "aluno/Maycon", "_to": "curso/Letras"},
-     {"_key": "Victor-Engenharia", "_from": "aluno/Victor", "_to": "curso/Engenharia"}]
-)
+with open("inserts\insertLocalizado.json") as f:
+    localizado.insert_many(json.load(f))
 
+#with open("inserts\insertEstuda.json") as f:
+#    estuda.insert_many(json.load(f))
 
-leciona.insert_many(
-    [{"_key": "Arnaldo-Medicina", "_from": "professor/Arnaldo", "_to": "curso/Medicina"},
-     {"_key": "Gomes-Engenharia", "_from": "professor/Gomes", "_to": "curso/Engenharia"},
-     {"_key": "Quiles-Letras", "_from": "professor/Quiles", "_to": "curso/Letras"},
-     {"_key": "Amanda-Matematica", "_from": "professor/Amanda", "_to": "curso/Matematica"},
-     {"_key": "Musa-Musica", "_from": "professor/Musa", "_to": "curso/Musica"}]
-)
+#with open("inserts\insertLeciona.json") as f:
+#    leciona.insert_many(json.load(f))
 
+with open("inserts\insertPertence.json") as f:
+    pertence.insert_many(json.load(f))
 
-pertence.insert_many(
-    [
-        {"_key": "Forgers-SJC", "_from": "grupo_extensao/Forgers", "_to": "campus/SJC"},
-        {"_key": "Atletica-Diadema", "_from": "grupo_extensao/Atletica","_to": "campus/Diadema"},
-        {"_key": "Mao3D-Santos", "_from": "grupo_extensao/Mao3D","_to": "campus/Santos"},
-        {"_key": "Tor-Campinas", "_from": "grupo_extensao/Tor","_to": "campus/Campinas"},
-        {"_key": "Pandas-SP", "_from": "grupo_extensao/Pandas","_to": "campus/SP"},
-    ]
-)
+#with open("inserts\insertCoordena.json") as f:
+#    coordena.insert_many(json.load(f))
 
-coordena.insert_many(
-    [{"_key": "Arnaldo-Forgers", "_from": "professor/Arnaldo", "_to": "grupo_extensao/Forgers"},
-     {"_key": "Gomes-Atletica", "_from": "professor/Gomes", "_to": "grupo_extensao/Atletica"},
-     {"_key": "Quiles-Mao3D", "_from": "professor/Quiles", "_to": "grupo_extensao/Mao3D"},
-     {"_key": "Amanda-Tor", "_from": "professor/Amanda", "_to": "grupo_extensao/Tor"},
-     {"_key": "Musa-Pandas", "_from": "professor/Musa", "_to": "grupo_extensao/Pandas"}]
-)
-
-participa.insert_many(
-    [{"_key": "Maria-Forgers", "_from": "aluno/Maria", "_to": "grupo_extensao/Forgers"},
-     {"_key": "Joao-Forgers", "_from": "aluno/Joao", "_to": "grupo_extensao/Forgers"},
-     {"_key": "Felipe-Tor", "_from": "aluno/Felipe", "_to": "grupo_extensao/Tor"},
-     {"_key": "Mateus-Atletica", "_from": "aluno/Mateus", "_to": "grupo_extensao/Atletica"},
-     {"_key": "Marina-Mao3D", "_from": "aluno/Marina", "_to": "grupo_extensao/Mao3D"},
-     {"_key": "Ana-Pandas", "_from": "aluno/Ana", "_to": "grupo_extensao/Pandas"},
-     {"_key": "Roberto-Pandas", "_from": "aluno/Roberto", "_to": "grupo_extensao/Pandas"},
-     {"_key": "Maycon-Mao3D", "_from": "aluno/Maycon", "_to": "grupo_extensao/Mao3D"},
-     {"_key": "Victor-Atletica", "_from": "aluno/Victor", "_to": "grupo_extensao/Atletica"}]
-)
+#with open("inserts\insertParticipa.json") as f:
+#    participa.insert_many(json.load(f)) 
