@@ -1,0 +1,97 @@
+[
+    {
+        "_key": "Maria-UNIFESP",
+        "_from": "aluno/Maria",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Joao-UNIFESP",
+        "_from": "aluno/Joao",
+        "_to": "universidades/UNIFESP"
+    }, 
+    {
+        "_key": "Felipe-UNIFESP",
+        "_from": "aluno/Felipe",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Mateus-UNIFESP",
+        "_from": "aluno/Mateus",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Marina-UNIFESP",
+        "_from": "aluno/Marina",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Ana-UFRJ",
+        "_from": "aluno/Ana",
+        "_to": "universidades/UFRJ"
+    },
+    {
+        "_key": "Roberto-UFRJ",
+        "_from": "aluno/Roberto",
+        "_to": "universidades/UFRJ"
+    },
+    {
+        "_key": "Maycon-Unifesp",
+        "_from": "aluno/Maycon",
+        "_to":  "universidades/UNIFESP"
+    },
+    {
+        "_key": "Victor-UNIFESP",
+        "_from": "aluno/Victor",
+        "_to":  "universidades/UNIFESP"
+    },
+    {
+        "_key": "Beatriz-UNIFESP",
+        "_from": "aluno/Beatriz",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Bianca-UNIFESP",
+        "_from": "aluno/Bianca",
+        "_to":  "universidades/UNIFESP"
+    },
+    {
+        "_key": "Fernando-UFRJ",
+        "_from": "aluno/Fernando",
+        "_to": "universidades/UFRJ"
+    },
+    {
+        "_key": "Mendes-UFRJ",
+        "_from": "aluno/Mendes",
+        "_to": "universidades/UFRJ"
+    },
+    {
+        "_key": "Monica-UNIFESP",
+        "_from": "aluno/Monica",
+        "_to":  "universidades/UNIFESP"
+    },
+    {
+        "_key": "Amanda-UNIFESP",
+        "_from": "aluno/Amanda",
+        "_to":  "universidades/UNIFESP"
+    },
+    {
+        "_key": "Reberth-UNIFESP",
+        "_from": "aluno/Reberth",
+        "_to": "universidades/UNIFESP"
+    },
+    {
+        "_key": "Karla-UFRJ",
+        "_from": "aluno/Karla",
+        "_to": "universidades/UFRJ"
+    },
+    {
+        "_key": "Karen-UFSCAR",
+        "_from": "aluno/Karen",
+        "_to": "curso/UFSCAR"
+    },
+    {
+        "_key": "Julia-UFRJ",
+        "_from": "aluno/Julia",
+        "_to": "universidades/UFRJ"
+    }
+]

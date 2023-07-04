@@ -136,6 +136,15 @@ else:
         from_vertex_collections=["aluno"],
         to_vertex_collections=["universidades"]
     )
+# Get the API wrapper for edge collection "vinculado".
+if grafo.has_edge_definition("vinculado"):
+    vinculado = grafo.edge_collection("vinculado")
+else:
+    vinculado = grafo.create_edge_definition(
+        edge_collection="vinculado",
+        from_vertex_collections=["grupo_extensao"],
+        to_vertex_collections=["universidades"]
+    )
 
 with open("inserts\insertUnis.json") as f:
     universidades.insert_many(json.load(f))

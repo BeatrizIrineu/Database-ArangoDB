@@ -5,6 +5,21 @@
         "_to": "campus/Sao_Jose_dos_Campos"
     },
     {
+        "_key": "Forgers-Sao_Jose_dos_Campos",
+        "_from": "grupo_extensao/Forgers",
+        "_to": "campus/Sao_Jose_dos_Campos"
+    },
+    {
+        "_key": "Tor-Sao_Jose_dos_Campos",
+        "_from": "grupo_extensao/Tor",
+        "_to": "campus/Sao_Jose_dos_Campos"
+    },
+    {
+        "_key": "Atletica-Sao_Jose_dos_Campos",
+        "_from": "grupo_extensao/Atletica",
+        "_to": "campus/Sao_Jose_dos_Campos"
+    },
+    {
         "_key": "CEGI-Sao_Jose_dos_Campos",
         "_from": "grupo_extensao/CEGI",
         "_to": "campus/Sao_Jose_dos_Campos"

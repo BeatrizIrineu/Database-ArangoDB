@@ -1,13 +1,13 @@
 [
     {
-        "_key": "Maria-Forgers",
+        "_key": "Maria-@Vaci-amar",
         "_from": "aluno/Maria",
-        "_to": "grupo_extensao/Forgers"
+        "_to": "grupo_extensao/@Vaci-amar"
     },
     {
-        "_key": "Joao-Forgers",
+        "_key": "Joao-@Vaci-amar",
         "_from": "aluno/Joao",
-        "_to": "grupo_extensao/Forgers"
+        "_to": "grupo_extensao/@Vaci-amar"
     },
     {
         "_key": "Felipe-Tor",
@@ -20,24 +20,24 @@
         "_to": "grupo_extensao/Atletica"
     },
     {
-        "_key": "Marina-Mao3D",
+        "_key": "Marina-GEPA",
         "_from": "aluno/Marina",
-        "_to": "grupo_extensao/Mao3D"
+        "_to": "grupo_extensao/GEPA"
     },
     {
-        "_key": "Ana-Pandas",
+        "_key": "Ana-Tela_Verde",
         "_from": "aluno/Ana",
-        "_to": "grupo_extensao/Pandas"
+        "_to": "grupo_extensao/Tela_Verde"
     },
     {
-        "_key": "Roberto-Pandas",
+        "_key": "Roberto-Tela_Verde",
         "_from": "aluno/Roberto",
-        "_to": "grupo_extensao/Pandas"
+        "_to":"grupo_extensao/Tela_Verde"
     },
     {
-        "_key": "Maycon-Mao3D",
+        "_key": "Maycon-GEPA",
         "_from": "aluno/Maycon",
-        "_to": "grupo_extensao/Mao3D"
+        "_to": "grupo_extensao/GEPA"
     },
     {
         "_key": "Victor-Atletica",
@@ -78,10 +78,5 @@
         "_key": "Reberth-Ciencia_e_Tecnologia",
         "_from": "aluno/Reberth",
         "_to": "grupo_extensao/CEGI"
-    },
-    {
-        "_key": "Karen-Administracao",
-        "_from": "aluno/Karen",
-        "_to": "grupo_extensao/Mind7_Empreendedor"
     }
 ]
