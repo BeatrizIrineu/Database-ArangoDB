@@ -18,7 +18,7 @@ if not sys_db.has_database("univ"):
     sys_db.create_database("univ")
 
 
-# Connect to "test" database as root user.
+# Connect to "univ" database as root user.
 db = client.db("univ", username="root", password="")
 
 # Create a new graph named "universidades" if it does not already exist.
@@ -89,6 +89,7 @@ else:
         from_vertex_collections=["aluno"],
         to_vertex_collections=["curso"],
     )
+
 # Get the API wrapper for edge collection "leciona".
 if grafo.has_edge_definition("leciona"):
     leciona = grafo.edge_collection("leciona")
@@ -107,6 +108,7 @@ else:
         from_vertex_collections=["grupo_extensao"],
         to_vertex_collections=["campus"],
     )
+    
 # Get the API wrapper for edge collection "coordena".
 if grafo.has_edge_definition("coordena"):
     coordena = grafo.edge_collection("coordena")
@@ -124,6 +126,15 @@ else:
         edge_collection="participa",
         from_vertex_collections=["aluno"],
         to_vertex_collections=["grupo_extensao"]
+    )
+# Get the API wrapper for edge collection "matriculado".
+if grafo.has_edge_definition("matriculado"):
+    matriculado = grafo.edge_collection("matriculado")
+else:
+    matriculado = grafo.create_edge_definition(
+        edge_collection="matriculado",
+        from_vertex_collections=["aluno"],
+        to_vertex_collections=["universidades"]
     )
 
 with open("inserts\insertUnis.json") as f:
@@ -164,3 +175,6 @@ with open("inserts\insertPertence.json") as f:
 
 #with open("inserts\insertParticipa.json") as f:
 #    participa.insert_many(json.load(f)) 
+
+with open("inserts\insertMatriculado.json") as f:
+    matriculado.insert_many(json.load(f)) 

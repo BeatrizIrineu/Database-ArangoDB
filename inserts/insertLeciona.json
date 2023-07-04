@@ -23,5 +23,55 @@
         "_key": "Musa-Musica",
         "_from": "professor/Musa",
         "_to": "curso/Musica"
+    }, 
+    {
+        "_key": "Luca-Biomedicina",
+        "_from": "professor/Luca",
+        "_to": "curso/Biomedicina"
+    },
+    {
+        "_key": "Feme-Medicina",
+        "_from": "professor/Feme",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Gustavo-Ciencias",
+        "_from": "professor/Gustavo",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Souza-Engenharia",
+        "_from": "professor/Souza",
+        "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Rico-Quimica",
+        "_from": "professor/Rico",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Larissa-Farmacia",
+        "_from": "professor/Larissa",
+        "_to": "curso/Farmacia"
+    },
+    {
+        "_key": "Pedro-Educacao_Fisica",
+        "_from": "professor/Pedro",
+        "_to": "curso/Educacao_Fisica"
+    },
+    {
+        "_key": "Bruna-Ciencia_e_Tecnologia",
+        "_from": "professor/Bruna",
+        "_to": "curso/Ciencia_e_Tecnologia"
+    },
+    {
+        "_key": "Bruno-Nutricao",
+        "_from": "professor/Bruno",
+        "_to": "curso/Nutricao"
+    },
+    {
+        "_key": "Mariana-Administracao",
+        "_from": "professor/Mariana",
+        "_to": "curso/Administracao"
     }
 ]

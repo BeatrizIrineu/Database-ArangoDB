@@ -23,5 +23,50 @@
         "_key": "Musa-Pandas",
         "_from": "professor/Musa",
         "_to": "grupo_extensao/Pandas"
+    },
+    {
+        "_key": "Luca-VIGIALERTA",
+        "_from": "professor/Luca",
+        "_to": "grupo_extensao/VIGIALERTA"
+    },
+    {
+        "_key": "Feme-Pontinha",
+        "_from": "professor/Feme",
+        "_to": "grupo_extensao/Pontinha"
+    },
+    {
+        "_key": "Gustavo-Difusao",
+        "_from": "professor/Gustavo",
+        "_to": "grupo_extensao/Difusao"
+    },
+    {
+        "_key": "Souza-Gen4",
+        "_from": "professor/Souza",
+        "_to": "grupo_extensao/Gen4"
+    },
+    {
+        "_key": "Rico-Brinca_que_Melhora",
+        "_from": "professor/Rico",
+        "_to": "grupo_extensao/Brinca_que_Melhora"
+    },
+    {
+        "_key": "Larissa-@Vaci-amar",
+        "_from": "professor/Larissa",
+        "_to": "grupo_extensao/@Vaci-amar"
+    },
+    {
+        "_key": "Pedro-Mar_Arte",
+        "_from": "professor/Pedro",
+        "_to": "grupo_extensao/Mar_Arte"
+    },
+    {
+        "_key": "Bruna-CEGI",
+        "_from": "professor/Bruna",
+        "_to": "grupo_extensao/CEGI"
+    },
+    {
+        "_key": "Mariana-Mind7",
+        "_from": "professor/Mariana",
+        "_to": "grupo_extensao/Mind7_Empreendedor"
     }
 ]

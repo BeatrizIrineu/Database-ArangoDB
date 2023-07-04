@@ -43,5 +43,45 @@
         "_key": "Victor-Atletica",
         "_from": "aluno/Victor",
         "_to": "grupo_extensao/Atletica"
+    }, 
+    {
+        "_key": "Beatriz-Biomedicina",
+        "_from": "aluno/Beatriz",
+        "_to": "grupo_extensao/VIGIALERTA"
+    },
+    {
+        "_key": "Bianca-Medicina",
+        "_from": "aluno/Bianca",
+        "_to": "grupo_extensao/VIGIALERTA"
+    },
+    {
+        "_key": "Fernando-Difusao",
+        "_from": "aluno/Fernando",
+        "_to": "grupo_extensao/Difusao"
+    },
+    {
+        "_key": "Mendes-Brinca_que_Melhora",
+        "_from": "aluno/Mendes",
+        "_to": "grupo_extensao/Brinca_que_Melhora"
+    },
+    {
+        "_key": "Monica-@Vaci-amar",
+        "_from": "aluno/Monica",
+        "_to": "grupo_extensao/@Vaci-amar"
+    },
+    {
+        "_key": "Amanda-Mar_Arte",
+        "_from": "aluno/Amanda",
+        "_to": "grupo_extensao/Mar_Arte"
+    },
+    {
+        "_key": "Reberth-Ciencia_e_Tecnologia",
+        "_from": "aluno/Reberth",
+        "_to": "grupo_extensao/CEGI"
+    },
+    {
+        "_key": "Karen-Administracao",
+        "_from": "aluno/Karen",
+        "_to": "grupo_extensao/Mind7_Empreendedor"
     }
 ]

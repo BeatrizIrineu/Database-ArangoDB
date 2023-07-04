@@ -43,5 +43,55 @@
         "_key": "Victor-Engenharia",
         "_from": "aluno/Victor",
         "_to": "curso/Engenharia"
+    },
+    {
+        "_key": "Beatriz-Biomedicina",
+        "_from": "aluno/Beatriz",
+        "_to": "curso/Biomedicina"
+    },
+    {
+        "_key": "Bianca-Medicina",
+        "_from": "aluno/Bianca",
+        "_to": "curso/Medicina"
+    },
+    {
+        "_key": "Fernando-Ciencias",
+        "_from": "aluno/Fernando",
+        "_to": "curso/Ciencias"
+    },
+    {
+        "_key": "Mendes-Quimica",
+        "_from": "aluno/Mendes",
+        "_to": "curso/Quimica"
+    },
+    {
+        "_key": "Monica-Farmacia",
+        "_from": "aluno/Monica",
+        "_to": "curso/Farmacia"
+    },
+    {
+        "_key": "Amanda-Educacao_Fisica",
+        "_from": "aluno/Amanda",
+        "_to": "curso/Educacao_Fisica"
+    },
+    {
+        "_key": "Reberth-Ciencia_e_Tecnologia",
+        "_from": "aluno/Reberth",
+        "_to": "curso/Ciencia_e_Tecnologia"
+    },
+    {
+        "_key": "Karla-Nutricao",
+        "_from": "aluno/Karla",
+        "_to": "curso/Nutricao"
+    },
+    {
+        "_key": "Karen-Administracao",
+        "_from": "aluno/Karen",
+        "_to": "curso/Administracao"
+    },
+    {
+        "_key": "Julia-Direito",
+        "_from": "aluno/Julia",
+        "_to": "curso/Direito"
     }
 ]
