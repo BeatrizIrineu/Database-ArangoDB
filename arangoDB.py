@@ -99,6 +99,7 @@ else:
         from_vertex_collections=["professor"],
         to_vertex_collections=["curso"],
     )
+    
 # Get the API wrapper for edge collection "pertence".
 if grafo.has_edge_definition("pertence"):
     pertence = grafo.edge_collection("pertence")
@@ -118,6 +119,7 @@ else:
         from_vertex_collections=["professor"],
         to_vertex_collections=["grupo_extensao"]
     )
+    
 # Get the API wrapper for edge collection "participa".
 if grafo.has_edge_definition("participa"):
     participa = grafo.edge_collection("participa")
@@ -127,6 +129,7 @@ else:
         from_vertex_collections=["aluno"],
         to_vertex_collections=["grupo_extensao"]
     )
+    
 # Get the API wrapper for edge collection "matriculado".
 if grafo.has_edge_definition("matriculado"):
     matriculado = grafo.edge_collection("matriculado")
@@ -134,15 +137,6 @@ else:
     matriculado = grafo.create_edge_definition(
         edge_collection="matriculado",
         from_vertex_collections=["aluno"],
-        to_vertex_collections=["universidades"]
-    )
-# Get the API wrapper for edge collection "vinculado".
-if grafo.has_edge_definition("vinculado"):
-    vinculado = grafo.edge_collection("vinculado")
-else:
-    vinculado = grafo.create_edge_definition(
-        edge_collection="vinculado",
-        from_vertex_collections=["grupo_extensao"],
         to_vertex_collections=["universidades"]
     )
 
@@ -155,11 +149,11 @@ with open("inserts\insertCampi.json") as f:
 with open("inserts\insertCursos.json") as f:
     curso.insert_many(json.load(f))
 
-#with open("inserts\insertAlunos.json") as f:
-#    aluno.insert_many(json.load(f))
+with open("inserts\insertAlunos.json") as f:
+    aluno.insert_many(json.load(f))
 
-#with open("inserts\insertProfessores.json") as f:
-#    aluno.insert_many(json.load(f))
+with open("inserts\insertProfessores.json") as f:
+    aluno.insert_many(json.load(f))
 
 with open("inserts\insertGEs.json") as f:
     grupo_extensao.insert_many(json.load(f))
@@ -170,20 +164,20 @@ with open("inserts\insertOferece.json") as f:
 with open("inserts\insertLocalizado.json") as f:
     localizado.insert_many(json.load(f))
 
-#with open("inserts\insertEstuda.json") as f:
-#    estuda.insert_many(json.load(f))
+with open("inserts\insertEstuda.json") as f:
+    estuda.insert_many(json.load(f))
 
-#with open("inserts\insertLeciona.json") as f:
-#    leciona.insert_many(json.load(f))
+with open("inserts\insertLeciona.json") as f:
+    leciona.insert_many(json.load(f))
 
 with open("inserts\insertPertence.json") as f:
     pertence.insert_many(json.load(f))
 
-#with open("inserts\insertCoordena.json") as f:
-#    coordena.insert_many(json.load(f))
+with open("inserts\insertCoordena.json") as f:
+    coordena.insert_many(json.load(f))
 
-#with open("inserts\insertParticipa.json") as f:
-#    participa.insert_many(json.load(f)) 
+with open("inserts\insertParticipa.json") as f:
+    participa.insert_many(json.load(f)) 
 
 with open("inserts\insertMatriculado.json") as f:
     matriculado.insert_many(json.load(f)) 
