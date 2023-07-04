@@ -153,7 +153,7 @@ with open("inserts\insertAlunos.json") as f:
     aluno.insert_many(json.load(f))
 
 with open("inserts\insertProfessores.json") as f:
-    aluno.insert_many(json.load(f))
+    professor.insert_many(json.load(f))
 
 with open("inserts\insertGEs.json") as f:
     grupo_extensao.insert_many(json.load(f))
